@@ -1,0 +1,16 @@
+= JVM Option
+:hp-tags: JVM, Java, Memory,
+
+
+== Some Useful -XX Options
+  
+Default values are listed for Java SE 6 for Solaris Sparc with `-server`. 
+Some options may vary per architecture/OS/JVM version. 
+Platforms with a differing default value are listed in the description.
+
+ - Boolean options are turned on with `-XX:+<option>` and turned off with `-XX:-<option>.Disa`
+ - Numeric options are set with `-XX:<option>=<number>`. Numbers can include 'm' or 'M' for megabytes, 'k' or 'K' for kilobytes, and 'g' or 'G' for gigabytes (for example, 32k is the same as 32768).
+ - String options are set with `-XX:<option>=<string>`, are usually used to specify a file, a path, or a list of commands
+ - Flags marked as manageable are dynamically writeable through the JDK management interface (`com.sun.management.HotSpotDiagnosticMXBean` API) and also through JConsole.
+ 
+In Monitoring and Managing Java SE 6 Platform Applications, Figure 3 shows an example. The manageable flags can also be set through `jinfo -flag`. 
