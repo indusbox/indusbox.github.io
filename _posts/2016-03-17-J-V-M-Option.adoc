@@ -1,5 +1,5 @@
 = JVM Option
-:hp-tags: JVM, Java, Memory,
+:hp-tags: JVM, Java, Memory
 
 
 == Some Useful -XX Options
