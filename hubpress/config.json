@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "indusbox",
-    "repositoryName": "indusbox.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"indusbox","repositoryName":"indusbox.github.io","branch":"master"},"site":{"url":"https://indusbox.github.io"},"socialnetwork":{},"theme":{"name":"Casper","url":"//indusbox.github.io/themes/Casper"}}
